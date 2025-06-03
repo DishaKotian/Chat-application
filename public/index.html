@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Official YapZone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="chat-container">
+    <h1 class="app-title">Official <span class="highlight">YapZone</span></h1>
+    <ul id="messages"></ul>
+    <form id="form" autocomplete="off">
+      <input id="input" placeholder="Type your yap..." />
+      <button>Send</button>
+    </form>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #fc466b, #3f5efb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.chat-container {
+  background: rgba(255, 255, 255, 0.1);
+  border: 3px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 350px;
+  backdrop-filter: blur(10px);
+}
+
+.app-title {
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #ffde59;
+  text-shadow: 3px 3px #ff007f;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #00e6e6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  margin-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  background: #ff6f61;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
